@@ -9,13 +9,13 @@ st.write("[![Star](https://img.shields.io/github/stars/dataprofessor/links.svg?l
 col1, col2, col3 = st.columns(3)
 col2.image(Image.open('dp.png'))
 
-st.header('Chanin Nantasenamat, Ph.D.')
+st.header('OtodomAI')
 
-st.info('Developer Advocate, Content Creator and ex-Professor with an interest in Data Science and Bioinformatics')
+st.info('OtodomAI')
 
 icon_size = 20
 
-st_button('youtube', 'https://youtube.com/dataprofessor', 'Data Professor YouTube channel', icon_size)
+st_button('OtodomAI', 'https://www.otodom.pl/', 'OtodomAI', icon_size)
 st_button('youtube', 'https://youtube.com/codingprofessor', 'Coding Professor YouTube channel', icon_size)
 st_button('medium', 'https://data-professor.medium.com/', 'Read my Blogs', icon_size)
 st_button('twitter', 'https://twitter.com/thedataprof/', 'Follow me on Twitter', icon_size)
